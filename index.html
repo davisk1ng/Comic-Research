@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#202c3a">
+	<meta name="description" content="An interactive visual research archive exploring Batman No. 215.">
+	<title>Batman No. 215 — A visual investigation</title>
+	<link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+	<header class="topbar wrap">
+		<a class="wordmark" href="#top" aria-label="Return to top"><span class="mark">B<span>•</span></span><span>THE BATMAN<br>PROJECT <i> / 215</i></span></a>
+		<nav aria-label="Main navigation"><a href="#reader">01 &nbsp; THE ISSUE</a><a href="#about">02 &nbsp; THE RESEARCH</a><a href="#archive">03 &nbsp; THE ARCHIVE</a></nav>
+		<span class="top-index">A GRAPHIC DESIGN<br>RESEARCH PROJECT</span>
+	</header>
+
+	<main id="top">
+		<section class="hero wrap" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<div class="eyebrow"><span class="red-dot"></span> AN EXPLORATION IN PRINT <span class="eyebrow-line"></span> <span>SEPTEMBER 1969</span></div>
+				<p class="hero-kicker">A CLOSER LOOK AT THE WORLD OF</p>
+				<h1 id="hero-title">BATMAN <span>NO. 215<span class="title-dot">.</span></span></h1>
+				<div class="hero-deck">THE PAGES. &nbsp; THE PRINT. &nbsp; THE STORY.</div>
+				<div class="hero-bottom"><p>A closer look at the ink, color, and visual language of a comic book.</p><div class="hero-action"><a class="primary-button" href="#reader" id="hero-open">OPEN COMIC <span>→</span></a><small>DRAG A PAGE TO BEGIN READING</small></div></div>
+			</div>
+			<div class="hero-side" aria-hidden="true"><div class="issue-seal"><span>AN ISSUE<br>UNDER THE<br>MICROSCOPE</span><strong>215</strong><i>BATMAN &nbsp; • &nbsp; SEPT. 1969</i></div><div class="hero-ticket"><span>INSIDE THIS PROJECT</span><strong>24 PAGES.<br>COUNTLESS DETAILS.</strong><small>AN INTERACTIVE VISUAL STUDY &nbsp; →</small></div></div>
+		</section>
+		<div class="issue-strip wrap" aria-hidden="true"><span>THE BATMAN PROJECT</span><b>★</b><span>PRINTED COLOR &amp; COMIC BOOK CRAFT</span><b>★</b><span>ISSUE NO. 215</span><b>★</b><span>TURN THE PAGE ↓</span></div>
+
+		<section id="reader" class="reader-section wrap" aria-labelledby="reader-title">
+			<div class="section-heading"><div><span class="section-number">CHAPTER 01 &nbsp; / &nbsp; THE READER</span><h2 id="reader-title">A story, <em>in your hands.</em></h2></div><p>THE ORIGINAL PAGES.<br>A NEW PERSPECTIVE.</p></div>
+			<div class="reader" id="reader-shell">
+				<div class="reader-top"><span><span class="red-dot"></span> THE READING ROOM</span><span>BATMAN NO. 215 <span class="muted"> / </span> 1969</span><button id="fullscreen" class="text-button" type="button" aria-label="Enter fullscreen">FULLSCREEN <span>↗</span></button></div>
+				<div class="stage" id="stage" aria-label="Interactive 3D comic book. Drag the outer edge to turn a page, or drag the center to change the view.">
+					<div class="stage-note stage-note-left">THE<br>ISSUE <span>↓</span></div><div class="stage-note stage-note-right">CLICK + DRAG<br>TO INTERACT <span>↗</span></div>
+					<div id="loading" class="loading" role="status" aria-live="polite"><span class="loading-spinner"></span><strong>PREPARING THE PAGES</strong><span id="loading-detail">Gathering the archive…</span></div>
+				</div>
+				<div class="reader-bottom">
+					<div class="reader-hint"><span class="hint-icon">✳</span><div><strong>TAKE A CLOSER LOOK</strong><small>Drag an edge to turn · Drag center to rotate</small></div></div>
+					  <div class="navigation"><button id="previous" class="arrow-button" type="button" aria-label="Previous page" disabled>←</button><div class="page-status"><strong id="page-label">COVER</strong><span id="page-count">— / —</span></div><button id="next" class="arrow-button" type="button" aria-label="Next page" disabled>→</button></div>
+					  <div class="reader-controls"><button id="cover" type="button" class="text-button" disabled>COVER</button><button id="open-book" type="button" class="text-button" disabled>OPEN</button><label for="zoom">ZOOM</label><input id="zoom" type="range" min="1" max="1.8" step="0.01" value="1" aria-label="Zoom"><button id="reset" type="button" class="text-button" aria-label="Reset view">RESET ↺</button></div>
+				</div>
+				<div class="progress-track" aria-label="Reading progress"><div id="progress"></div></div>
+			</div>
+			<div class="reader-caption"><span>FIG. 01 — THE DIGITAL READING EXPERIENCE</span><span>USE ARROW KEYS TO TURN PAGES <span class="red-text">↗</span></span></div>
+		</section>
+
+		<section id="about" class="about wrap" aria-labelledby="about-title"><div class="section-heading"><div><span class="section-number">CHAPTER 02 &nbsp; / &nbsp; THE RESEARCH</span><h2 id="about-title">Beyond <em>the panels.</em></h2></div><p>LOOK CLOSER.<br>THERE'S MORE TO THE STORY.</p></div><div class="about-grid"><div class="about-label"><span>THE SUBJECT &nbsp; / &nbsp; 01</span><strong>INK.<br>COLOR.<br>STORY<span>.</span></strong><small>THE ART OF THE<br>PRINTED PAGE ★</small></div><div class="about-copy"><span class="red-rule"></span><h3>A visual investigation<br>of Batman No. 215.</h3><p>This project takes a closer look at the visual language of the issue: its printed color, expressive lettering, composition, and the details that give each page its character.</p><p class="editable-note">A space for your own research, observations, and writing.</p><span class="about-meta">BATMAN NO. 215 &nbsp; / &nbsp; SEPTEMBER 1969</span></div></div></section>
+
+		<section id="archive" class="archive wrap" aria-labelledby="archive-title"><div class="section-heading"><div><span class="section-number">CHAPTER 03 &nbsp; / &nbsp; THE ARCHIVE</span><h2 id="archive-title">The work <em>in progress.</em></h2></div><p>AN EVOLVING COLLECTION<br>OF IDEAS &amp; OUTCOMES.</p></div><div class="archive-intro"><p>A collection of experiments, artifacts, and ideas<br>inspired by the pages of the issue.</p><span>SELECTED WORKS &nbsp; / &nbsp; AN EVOLVING ARCHIVE</span></div>
+			<section class="poster-series" id="posters" aria-labelledby="posters-title">
+				<div class="poster-heading"><div><span class="poster-kicker">THE ARCHIVE &nbsp; / &nbsp; 01</span><h3 id="posters-title">Poster series<span>.</span></h3></div><p>FOUR POSTERS &nbsp; / &nbsp; SELECT AN IMAGE TO VIEW FULL SIZE ↗</p></div>
+				<div class="poster-grid">
+					<figure class="poster-item"><a href="./Poster Series/Poster Series 1.jpg" target="_blank" rel="noopener" aria-label="View poster 01 in full size"><img src="./Poster Series/Poster Series 1.jpg" alt="Poster featuring a repeating Batmobile on a yellow background" width="3300" height="5100" loading="lazy" decoding="async"></a><figcaption><span>POSTER 01</span><span>↗</span></figcaption></figure>
+					<figure class="poster-item"><a href="./Poster Series/Poster 2.jpg" target="_blank" rel="noopener" aria-label="View poster 02 in full size"><img src="./Poster Series/Poster 2.jpg" alt="Poster with a close-up comic illustration against a coral background" width="3300" height="5100" loading="lazy" decoding="async"></a><figcaption><span>POSTER 02</span><span>↗</span></figcaption></figure>
+					<figure class="poster-item"><a href="./Poster Series/Poster 3.jpg" target="_blank" rel="noopener" aria-label="View poster 03 in full size"><img src="./Poster Series/Poster 3.jpg" alt="Poster featuring Batman and Robin against a turquoise background" width="3300" height="5100" loading="lazy" decoding="async"></a><figcaption><span>POSTER 03</span><span>↗</span></figcaption></figure>
+					<figure class="poster-item"><a href="./Poster Series/Poster 4.jpg" target="_blank" rel="noopener" aria-label="View poster 04 in full size"><img src="./Poster Series/Poster 4.jpg" alt="Poster featuring the Batplane against a green background" width="3300" height="5100" loading="lazy" decoding="async"></a><figcaption><span>POSTER 04</span><span>↗</span></figcaption></figure>
+				</div>
+			</section>
+			<div class="archive-grid">
+			<!-- Replace the remaining placeholders with your own images, links, and project text. -->
+			<a class="archive-card archive-card-link" href="#posters"><div><span>01</span><span>↗</span></div><h3>Posters</h3><p>VIEW THE SERIES</p></a><article class="archive-card"><div><span>02</span><span>↗</span></div><h3>Booklet</h3><p>PROJECT PLACEHOLDER</p></article><article class="archive-card"><div><span>03</span><span>↗</span></div><h3>Typography</h3><p>PROJECT PLACEHOLDER</p></article><article class="archive-card"><div><span>04</span><span>↗</span></div><h3>Glyph set</h3><p>PROJECT PLACEHOLDER</p></article><article class="archive-card"><div><span>05</span><span>↗</span></div><h3>Object</h3><p>PROJECT PLACEHOLDER</p></article><article class="archive-card"><div><span>06</span><span>↗</span></div><h3>Motion poster</h3><p>PROJECT PLACEHOLDER</p></article>
+		</div></section>
+	</main>
+	<footer class="footer wrap"><div class="footer-title">THE END<span>.</span><small>FOR NOW.</small></div><div><span>A GRAPHIC DESIGN RESEARCH PROJECT</span><span>BATMAN NO. 215 &nbsp; / &nbsp; 1969</span></div><a href="#top">BACK TO TOP ↑</a></footer>
+	<script type="module" src="/src/posters.js"></script>
+	<script type="module" src="/src/main.js"></script>
+</body>
+</html>
